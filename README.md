@@ -14,7 +14,7 @@ Security was NOT considered at all while making DREA, so it is NOT RECOMMENDED t
 
 ### 1. Setting up DREA
 
-To setup DREA, all you need to do is change "Change here" section accordingly. Default values are:
+To setup DREA, all you need to do is copy drea.py file onto remote server and change "Change here" section accordingly. Default values are:
 
 ```python
 pwd = 'password'
@@ -31,7 +31,7 @@ port = 20003
 
 ```port``` is where DREA should listen for connections. default is 20003.
 
-After changing all three variables, you can simply run the script on remote server to start DREA.
+After changing all four variables, you can simply run the script (may need to install websockets) on remote server to start DREA.
 
 ### 2. Controlling DREA
 
@@ -49,9 +49,9 @@ If password is not set or correct password has been sent, DREA will send ```cmd`
 
 - ```bye``` closes the connection.
 
-### 3. An other thing
+### 3. Another thing
 
-Currently there is no proper way to stop DREA. You can always force close it or whatever.
+Currently there is no proper way to stop DREA. You can always force close it.
 
 # License
 
